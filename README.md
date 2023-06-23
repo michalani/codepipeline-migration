@@ -21,7 +21,7 @@ If you have questions about this change, the AWS Support Team is available on re
 The above architecture works by relaying on you having 2 buckets 1st bucket for source and 2nd bucket for deployment to, the source bucket is declared within the template, while the deployed to bucket is not as you likely already have an existing bucket you wish to deploy to, feel free to create one to use with this architecture.
 
 References:
-*=================*
+
 [1] Migrate polling pipelines with an S3 source and CloudTrail trail (CLI) - https://docs.aws.amazon.com/codepipeline/latest/userguide/update-change-detection.html#update-change-detection-cli-S3 
 
 [2] Migrate polling pipelines with an S3 source and CloudTrail trail (AWS CloudFormation template). - https://docs.aws.amazon.com/codepipeline/latest/userguide/update-change-detection.html#update-change-detection-cfn-s3 
