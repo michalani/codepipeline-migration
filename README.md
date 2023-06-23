@@ -23,7 +23,10 @@ The above architecture works by relaying on you having 2 buckets 1st bucket for 
 References:
 *=================*
 [1] Migrate polling pipelines with an S3 source and CloudTrail trail (CLI) - https://docs.aws.amazon.com/codepipeline/latest/userguide/update-change-detection.html#update-change-detection-cli-S3 
+
 [2] Migrate polling pipelines with an S3 source and CloudTrail trail (AWS CloudFormation template). - https://docs.aws.amazon.com/codepipeline/latest/userguide/update-change-detection.html#update-change-detection-cfn-s3 
+
 [3] CodePipeline pipeline structure reference - Default settings for the PollForSourceChanges parameter - https://docs.aws.amazon.com/codepipeline/latest/userguide/reference-pipeline-structure.html#PollForSourceChanges-defaults 
+
 [4] Migrate polling pipelines to use event-based change detection - Viewing polling pipelines in your account - https://docs.aws.amazon.com/codepipeline/latest/userguide/update-change-detection.html#update-change-detection-view-polling 
 
